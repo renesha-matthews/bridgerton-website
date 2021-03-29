@@ -16,6 +16,14 @@ img {
     max-width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'IM Fell English', serif;
+}
+
+p, a {
+	font-family: 'Spectral', serif;
+}
+
 nav ul {
     display: flex;
     flex-flow: wrap;
