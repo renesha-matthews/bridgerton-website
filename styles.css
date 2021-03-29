@@ -11,3 +11,25 @@ font-family: 'Spectral', serif;
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header, section {
+    height: 615px;
+    padding: 10px 5%;
+}
