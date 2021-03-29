@@ -1,3 +1,7 @@
+/* font-family: 'IM Fell English', serif;
+font-family: 'Spectral', serif;
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,4 +11,3 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
-
