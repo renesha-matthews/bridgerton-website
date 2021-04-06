@@ -78,6 +78,19 @@ header, section {
     padding: 10px 5%;
 }
 
+.page {
+  margin-bottom: 20%;
+}
+
+#page1 {
+	margin-top: 90px;
+}
+
+.whistledown-img {
+    filter: sepia(1);
+    padding-top: 35px;
+}
+
 .ornament {
 	width: 60%;
 	max-width: 400px;
@@ -104,6 +117,10 @@ h1 {
 	height: 100px;
 	margin: auto;
 	margin-top: 5px;
+}
+
+.featherington-pic {
+    padding: 20px 0;
 }
 
 footer {
@@ -177,13 +194,22 @@ main h2 {
 		margin-top: 5px;
 	}
 
+	.page {
+	  margin-bottom: 10%;
+	}
+
+	.family2-pics img {
+		max-width: 335px;
+	}
+
 }
 
 @media (min-width: 600px) {
 	.typewriter h2 {
 		font-size: 2rem;
 }
-nav ul li a {
+
+	nav ul li a {
 		font-size: 1.2rem;
 	}
 }
@@ -196,6 +222,38 @@ nav ul li a {
 		margin: auto;
 		margin-top: 10px;
 	}
+
+}
+
+@media (min-width: 815px) {
+	.content-2 {
+		max-width: 650px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 840px) {
+	.intro p {
+		max-width: 666px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 850px) {
+	.content-2 {
+		display: flex;
+		align-items: center;
+	}
+
+	.content-2 p {
+    text-align: left;
+    padding-right: 5%;
+    margin-left: -20px;
+}
+
+.family2-pics img {
+    margin-right: -17px;
+}
 
 }
 
