@@ -94,6 +94,10 @@ h1 {
 	padding: 5px;
 }
 
+.bridgerton-family {
+	width: 700px;
+}
+
 /******* HOME PAGE IMAGE CONTAINER  ******/
 #container {
 	width: 85%;
@@ -194,6 +198,20 @@ nav ul li a {
 	}
 
 }
+
+@media (min-width: 1300px) {
+	.bridgerton-flex {
+		display: flex;
+		margin: 6% 0;
+	}
+
+	.bridgerton-flex p {
+		text-align: left;
+		margin-left: 2%;
+	}
+}
+
+
 
 @media (min-width: 1920px) {
 	.typewriter h2 {
