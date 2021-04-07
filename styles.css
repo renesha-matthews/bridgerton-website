@@ -123,6 +123,14 @@ h1 {
     padding: 20px 0;
 }
 
+.grow {
+	transition: all .2s ease-in-out; }
+
+.grow:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 50px rgb(193 148 214 / 70%);
+}
+
 footer {
 	background-color: rgba(189,155,212, 0.5);
 }
@@ -257,6 +265,16 @@ main h2 {
 
 }
 
+@media (min-width: 1200px) {
+	#container {
+		height: 600px;
+	}
+
+	.featherington-pic {
+		max-width: 1200px;
+	}
+}
+
 @media (min-width: 1300px) {
 	.bridgerton-flex {
 		display: flex;
@@ -266,6 +284,12 @@ main h2 {
 	.bridgerton-flex p {
 		text-align: left;
 		margin-left: 2%;
+	}
+}
+
+@media (min-width: 1500px) {
+	#container {
+		height: 800px;
 	}
 }
 
