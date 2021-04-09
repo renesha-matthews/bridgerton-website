@@ -78,12 +78,18 @@ header, section {
     padding: 10px 5%;
 }
 
+.intro p {
+	font-weight: bold;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
 .page {
   margin-bottom: 20%;
 }
 
 #page1 {
-	margin-top: 90px;
+	margin-top: 40px;
 }
 
 .whistledown-img {
