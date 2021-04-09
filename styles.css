@@ -33,7 +33,7 @@ body {
 	text-align: center;
 }
 
-img {
+ img {
     max-width: 100%;
 }
 
@@ -124,9 +124,13 @@ h1 {
 	margin-top: 10%;
 }
 
+.content-1 p {
+	padding: 10px 0;
+}
+
 /*********** FEATHERINGTON SECTION ****************/
 .content-2 p, .family2-pics img {
-	margin-bottom: 14%;
+	margin-bottom: 40px;
 }
 
 
@@ -149,14 +153,14 @@ h1 {
 }
 
 /*********** IMAGE HOVER EFFECT ****************/
-.grow {
+/* .grow {
 	transition: all .2s ease-in-out; }
 
 
 .grow:hover {
 	transform: scale(1.1);
 	box-shadow: 0 0 50px rgb(193 148 214 / 70%);
-}
+} */
 
 #scroll-to-top {
   background-color: #bd9bd4;
@@ -247,8 +251,13 @@ main h2 {
 	  margin-bottom: 10%;
 	}
 
-	.family2-pics img {
-		max-width: 335px;
+	.family1-pics, .family2-pics {
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+	.family1-pics {
+		padding-top: 30px;
 	}
 
 }
@@ -278,7 +287,8 @@ main h2 {
 
 /**** 815PX MEDIA QUERY ****/
 @media (min-width: 815px) {
-	.content-2 {
+
+	.content-1,.content-2 {
 		max-width: 650px;
 		margin: 0 auto;
 	}
@@ -324,7 +334,7 @@ main h2 {
 }
 
 
-/**** 100PX MEDIA QUERY ****/
+/**** 1000PX MEDIA QUERY ****/
 @media (min-width: 1000px) {
 	#scroll-to-top {
 		padding: 2%;
