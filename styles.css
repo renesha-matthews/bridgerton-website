@@ -288,7 +288,7 @@ main h2 {
 /**** 815PX MEDIA QUERY ****/
 @media (min-width: 815px) {
 
-	.content-1,.content-2 {
+	.content-2 {
 		max-width: 650px;
 		margin: 0 auto;
 	}
@@ -305,6 +305,25 @@ main h2 {
 
 /**** 850PX MEDIA QUERY ****/
 @media (min-width: 850px) {
+	.content-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+	.bridgerton-text {
+		width: 335px;
+	  margin: 0 30px;
+}
+
+.family1-pics {
+	margin: 0 20px;
+}
+
+.bridgerton-brothers {
+    margin-top: 30%;
+}
+
 	.content-2 {
 		display: flex;
 		align-items: center;
@@ -315,7 +334,7 @@ main h2 {
     margin-left: -20px;
 }
 
-.content-2 p, .bridgerton-float p {
+.bridgerton-text, .bridgerton-float p {
 	text-align: left;
 }
 
@@ -350,9 +369,9 @@ main h2 {
 		font-size: 2em;
 	}
 
-	 p, nav ul li {
+	 /* p, nav ul li {
 		font-size: 1.5em;
-	}
+	} */
 }
 
 /**** 1200PX MEDIA QUERY ****/
@@ -370,10 +389,10 @@ main h2 {
 		margin: 6% 0;
 	}
 
-	.bridgerton-family {
+	/* .bridgerton-family {
 		float: left;
 		margin: 1%;
-	}
+	} */
 
 	.bridgerton-float p {
 		margin-left: 2%;
