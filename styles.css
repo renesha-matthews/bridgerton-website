@@ -2,6 +2,11 @@
 font-family: 'Spectral', serif;
 */
 
+@font-face {
+	src: url(font/FeENsc2.ttf);
+	font-family: 'imfellbold';
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,11 +15,6 @@ font-family: 'Spectral', serif;
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
-}
-
-@font-face {
-	src: url(font/FeENsc2.ttf);
-	font-family: 'imfellbold';
 }
 
 
@@ -78,6 +78,8 @@ header, section {
     padding: 10px 5%;
 }
 
+/*********** INTRO SECTION ****************/
+
 .intro p {
 	font-weight: bold;
 	line-height: 1.5;
@@ -113,9 +115,31 @@ h1 {
 	padding: 5px;
 }
 
+/*********** BRIDGERTONS SECTION ****************/
+
 .bridgerton-family {
 	width: 700px;
+	margin: 10% 0;
 }
+
+.bridgerton-brothers {
+	margin-top: 10%;
+}
+
+/*********** FEATHERINGTON SECTION ****************/
+.content-2 p, .family2-pics img {
+	margin-bottom: 14%;
+}
+
+.featherington-pic {
+    padding: 20px 0;
+}
+
+/*********** BRIDGERTON AND FEATHERINGTON SECTIONS ****************/
+#bridgerton, #featherington {
+	margin-top: 10%;
+}
+
 
 /******* HOME PAGE IMAGE CONTAINER  ******/
 #container {
@@ -125,18 +149,29 @@ h1 {
 	margin-top: 5px;
 }
 
-.featherington-pic {
-    padding: 20px 0;
-}
-
+/*********** IMAGE HOVER EFFECT ****************/
 .grow {
 	transition: all .2s ease-in-out; }
+
 
 .grow:hover {
 	transform: scale(1.1);
 	box-shadow: 0 0 50px rgb(193 148 214 / 70%);
 }
 
+#scroll-to-top {
+  background-color: #bd9bd4;
+	bottom: 40px;
+  color: #ffffff;
+	margin-bottom: 10%;
+  padding: 4%;
+	position: relative;
+  text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+/*********** FOOTER SECTION ****************/
 footer {
 	background-color: rgba(189,155,212, 0.5);
 }
