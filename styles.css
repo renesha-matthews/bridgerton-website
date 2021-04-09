@@ -210,7 +210,7 @@ footer {
 
 main h2 {
 	padding: 0;
-	max-width: 300px;
+	max-width: 330px;
   overflow: hidden;
   border-right: .1111em solid black;
   white-space: nowrap;
@@ -383,10 +383,7 @@ main h2 {
 @media (min-width: 1920px) {
 	.typewriter h2 {
 		max-width: 400px;
-}
-
-h2 {
-	font-size: 3em;
+		font-size: 3em;
 }
 
 #scroll-to-top {
