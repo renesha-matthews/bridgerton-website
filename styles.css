@@ -151,7 +151,7 @@ h1 {
 /******* HOME PAGE IMAGE CONTAINER  ******/
 #container {
 	width: 85%;
-	height: 100px;
+	height: 150px;
 	margin: auto;
 	margin-top: 5px;
 }
@@ -270,12 +270,30 @@ main h2 {
 
 /**** 600PX MEDIA QUERY ****/
 @media (min-width: 600px) {
+
+	#container {
+		width: 85%;
+		height: 250px;
+		margin: auto;
+		margin-top: 5px;
+	}
+
 	.typewriter h2 {
 		font-size: 2rem;
 }
 
 	nav ul li a {
 		font-size: 1.2rem;
+	}
+}
+
+/**** 700PX MEDIA QUERY ****/
+@media (min-width: 700px) {
+	#container {
+		width: 85%;
+		height: 300px;
+		margin: auto;
+		margin-top: 5px;
 	}
 }
 
@@ -349,6 +367,7 @@ main h2 {
 
 }
 
+/**** 985PX MEDIA QUERY ****/
 @media (min-width: 985px) {
 	.content-1 {
     display: flex;
@@ -371,7 +390,6 @@ main h2 {
 
 }
 
-
 /**** 1000PX MEDIA QUERY ****/
 @media (min-width: 1000px) {
 	#scroll-to-top {
@@ -387,7 +405,6 @@ main h2 {
 	h2 {
 		font-size: 2em;
 	}
-
 
 }
 
@@ -428,14 +445,12 @@ main h2 {
 	}
 }
 
-
 /**** 1500PX MEDIA QUERY ****/
 @media (min-width: 1500px) {
 	#container {
 		height: 800px;
 	}
 }
-
 
 /**** 1920PX MEDIA QUERY ****/
 @media (min-width: 1920px) {
