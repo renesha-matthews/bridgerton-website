@@ -117,7 +117,7 @@ h1 {
 /*********** BRIDGERTONS SECTION ****************/
 
 .bridgerton-family {
-	width: 700px;
+	width: 800px;
 }
 
 .bridgerton-brothers {
@@ -131,6 +131,10 @@ h1 {
 /*********** FEATHERINGTON SECTION ****************/
 .content-2 p, .family2-pics img {
 	margin-bottom: 40px;
+}
+
+.featherington-pic {
+	width: 900px;
 }
 
 
@@ -163,14 +167,16 @@ h1 {
 } */
 
 #scroll-to-top {
-  background-color: #bd9bd4;
-	bottom: 40px;
-  color: #ffffff;
-	margin-bottom: 10%;
-  padding: 4%;
-	position: relative;
-  text-transform: uppercase;
-	cursor: pointer;
+    background-color: #bd9bd4;
+    bottom: 40px;
+    color: #ffffff;
+    margin-bottom: 10%;
+    padding: 4%;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Spectral';
+    border-radius: 10px;
 }
 
 
@@ -305,6 +311,45 @@ main h2 {
 
 /**** 850PX MEDIA QUERY ****/
 @media (min-width: 850px) {
+	.intro p {
+		font-size: 1.1em;
+	}
+
+	.bridgerton-text {
+		max-width: 675px;
+		margin: 0 auto;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	.content-2 {
+		display: flex;
+		align-items: center;
+	}
+
+	.content-2 p {
+    padding-right: 5%;
+    margin-left: -25px;
+		text-align: left;
+		font-size: 1.1em;
+}
+
+
+.family2-pics img {
+    margin-right: -25px;
+}
+
+.bridgerton-family, .featherington-pic {
+	margin: 8% 0;
+}
+
+#scroll-to-top {
+	padding: 3%;
+}
+
+}
+
+@media (min-width: 985px) {
 	.content-1 {
     display: flex;
     flex-flow: row wrap;
@@ -316,38 +361,12 @@ main h2 {
 	  margin: 0 30px;
 }
 
-.family1-pics {
-	margin: 0 20px;
+	.family1-pics {
+		margin: 0 20px;
 }
 
-.bridgerton-brothers {
-    margin-top: 30%;
-}
-
-	.content-2 {
-		display: flex;
-		align-items: center;
-	}
-
-	.content-2 p {
-    padding-right: 5%;
-    margin-left: -20px;
-}
-
-.bridgerton-text, .bridgerton-float p {
-	text-align: left;
-}
-
-.family2-pics img {
-    margin-right: -17px;
-}
-
-.bridgerton-family, .featherington-pic {
-	margin: 8% 0;
-}
-
-#scroll-to-top {
-	padding: 3%;
+	.bridgerton-brothers {
+    margin-top: 20%;
 }
 
 }
@@ -369,9 +388,7 @@ main h2 {
 		font-size: 2em;
 	}
 
-	 /* p, nav ul li {
-		font-size: 1.5em;
-	} */
+
 }
 
 /**** 1200PX MEDIA QUERY ****/
@@ -380,11 +397,19 @@ main h2 {
 		height: 600px;
 	}
 
-}
+	nav ul li a {
+	 font-size: 1.4em;
+ }
 
+}
 
 /**** 1330PX MEDIA QUERY ****/
 @media (min-width: 1330px) {
+
+	.intro p {
+		font-size: 1.3em
+	}
+
 	.bridgerton-float {
 		margin: 6% 0;
 	}
@@ -396,6 +421,10 @@ main h2 {
 
 	.bridgerton-float p {
 		margin-left: 2%;
+	}
+
+	.bridgerton-text, .content-2 p {
+		font-size: 1.2em;
 	}
 }
 
