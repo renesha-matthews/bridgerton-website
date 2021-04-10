@@ -95,7 +95,7 @@ header, section {
 
 .whistledown-img {
     filter: sepia(1);
-    padding-top: 35px;
+    padding-top: 50px;
 }
 
 .ornament {
@@ -367,8 +367,8 @@ main h2 {
 
 }
 
-/**** 985PX MEDIA QUERY ****/
-@media (min-width: 985px) {
+/**** 1000PX MEDIA QUERY ****/
+@media (min-width: 1000px) {
 	.content-1 {
     display: flex;
     flex-flow: row wrap;
@@ -387,11 +387,6 @@ main h2 {
 	.bridgerton-brothers {
     margin-top: 20%;
 }
-
-}
-
-/**** 1000PX MEDIA QUERY ****/
-@media (min-width: 1000px) {
 	#scroll-to-top {
 		padding: 2%;
 		transition: .3s;
