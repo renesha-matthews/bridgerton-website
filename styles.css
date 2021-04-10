@@ -91,23 +91,23 @@ header, section {
 	line-height: 1.5;
 }
 
-.page {
+/* .page {
   margin-bottom: 20%;
-}
+} */
 
 #page1 {
-	margin-top: 40px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .whistledown-img {
     filter: sepia(1);
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .ornament {
 	width: 60%;
 	max-width: 400px;
-	margin-top: 30px;
 }
 
 .whistledown_logo {
@@ -124,37 +124,44 @@ h1 {
 
 .bridgerton-family {
 	width: 800px;
+	padding-bottom: 5px;
 }
 
 /* .bridgerton-brothers {
 	margin-top: 10%;
 } */
 
-.content-1 p {
+/* .content-1 p {
 	padding: 10px 0;
+} */
+
+/* .pic2 {
+  margin-top: 30px;
+} */
+
+.daphne {
+	margin-top: 10px;
 }
 
-.pic2 {
-  margin-top: 30px;
-}
 
 /*********** FEATHERINGTON SECTION ****************/
 .featherington-text {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .featherington-pic {
 	width: 900px;
+	padding-bottom: 5px;
 }
 
 
 /*********** BRIDGERTON AND FEATHERINGTON SECTIONS ****************/
-#bridgerton, #featherington {
+/* #bridgerton, #featherington {
 	margin-top: 10%;
-}
+} */
 
 .bridgerton-family, .featherington-pic {
-	margin: 10% 0;
+	margin: 2% 0 0 0;
 }
 
 
@@ -170,7 +177,7 @@ h1 {
     background-color: #bd9bd4;
     bottom: 40px;
     color: #ffffff;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     padding: 4%;
     position: relative;
     text-transform: uppercase;
@@ -178,6 +185,12 @@ h1 {
     font-family: 'Spectral';
     border-radius: 10px;
 }
+
+.caption {
+	visibility: hidden;
+}
+
+
 
 
 /*********** FOOTER SECTION ****************/
@@ -253,18 +266,18 @@ main h2 {
 		margin-top: 5px;
 	}
 
-	.page {
+	/* .page {
 	  margin-bottom: 10%;
-	}
+	} */
 
 	.family1-pics, .family2-pics {
 		max-width: 350px;
 		margin: 0 auto;
 	}
 
-	.family1-pics {
+	/* .family1-pics {
 		padding-top: 30px;
-	}
+	} */
 
 }
 
@@ -360,9 +373,9 @@ main h2 {
     margin-right: -25px;
 } */
 
-.bridgerton-family, .featherington-pic {
+/* .bridgerton-family, .featherington-pic {
 	margin: 8% 0;
-}
+} */
 
 #scroll-to-top {
 	padding: 3%;
@@ -391,6 +404,16 @@ main h2 {
 	  margin-top: 100px;
 	}
 
+	.family1-pics, .family2-pics {
+		padding: 45px;
+	}
+
+
+	.daphne {
+		margin-top: 0;
+	}
+
+
 	/* .bridgerton-brothers {
     margin-top: 20%;
 } */
@@ -406,6 +429,7 @@ main h2 {
 }
 
 	.grow:hover .caption {
+		visibility: visible;
 		transition: 0.5s;
 		opacity: 1;
 	}
@@ -413,6 +437,7 @@ main h2 {
 	#scroll-to-top {
 		padding: 2%;
 		transition: .3s;
+		margin-top: 50px;
 	}
 
 	#scroll-to-top:hover {
@@ -459,9 +484,9 @@ main h2 {
 		font-size: 1.3em
 	}
 
-	.bridgerton-float {
+	/* .bridgerton-float {
 		margin: 6% 0;
-	}
+	} */
 
 	/* .bridgerton-family {
 		float: left;
