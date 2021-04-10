@@ -139,7 +139,7 @@ h1 {
 }
 
 /*********** FEATHERINGTON SECTION ****************/
-.content-2 p, .family2-pics img {
+.featherington-text {
 	margin-bottom: 40px;
 }
 
@@ -326,7 +326,6 @@ main h2 {
 	}
 }
 
-
 /**** 850PX MEDIA QUERY ****/
 @media (min-width: 850px) {
 
@@ -346,17 +345,20 @@ main h2 {
 		align-items: center;
 	}
 
-	.content-2 p {
+	.featherington-text {
     padding-right: 5%;
     margin-left: -25px;
 		text-align: left;
 		font-size: 1.1em;
 }
 
-
-.family2-pics img {
-    margin-right: -25px;
+.pic4 {
+    margin-top: 30px;
 }
+
+/* .family2-pics img {
+    margin-right: -25px;
+} */
 
 .bridgerton-family, .featherington-pic {
 	margin: 8% 0;
@@ -385,10 +387,9 @@ main h2 {
 		margin: 0 20px;
 }
 
-.pic2 {
-  margin-top: 100px;
-}
-
+	.pic2 {
+	  margin-top: 100px;
+	}
 
 	/* .bridgerton-brothers {
     margin-top: 20%;
@@ -427,13 +428,11 @@ main h2 {
 
 	.caption {
 	  position: absolute;
-		z-index: 999;
 	}
 
 	.caption:hover {
 		opacity: 1;
 	}
-
 
 	h2 {
 		font-size: 2em;
@@ -473,7 +472,7 @@ main h2 {
 		margin-left: 2%;
 	}
 
-	.bridgerton-text, .content-2 p {
+	.bridgerton-text, .featherington-text {
 		font-size: 1.2em;
 	}
 }
