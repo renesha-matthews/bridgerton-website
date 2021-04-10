@@ -387,13 +387,18 @@ main h2 {
 @media (min-width: 1000px) {
 	.content-1 {
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     justify-content: center;
 }
 
-	.bridgerton-text {
-		width: 335px;
-	  margin: 0 30px;
+.bridgerton-text {
+	width: 335px;
+	margin: 0 30px;
+	padding: 20px 0 0 2%;
+}
+
+.bridgerton-text p {
+    padding-bottom: 10px;
 }
 
 	.family1-pics {
