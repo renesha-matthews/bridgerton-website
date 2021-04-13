@@ -74,7 +74,6 @@ nav ul li {
 }
 
 header, section {
-    /* height: 615px; */
     padding: 10px 5%;
 }
 
@@ -92,9 +91,6 @@ header, section {
 	padding: 10px;
 }
 
-/* .page {
-  margin-bottom: 20%;
-} */
 
 #page1 {
 	margin-top: 10px;
@@ -128,17 +124,6 @@ h1 {
 	padding-bottom: 5px;
 }
 
-/* .bridgerton-brothers {
-	margin-top: 10%;
-} */
-
-/* .content-1 p {
-	padding: 10px 0;
-} */
-
-/* .pic2 {
-  margin-top: 30px;
-} */
 
 .daphne {
 	margin-top: 10px;
@@ -157,10 +142,6 @@ h1 {
 
 
 /*********** BRIDGERTON AND FEATHERINGTON SECTIONS ****************/
-/* #bridgerton, #featherington {
-	margin-top: 10%;
-} */
-
 .bridgerton-family, .featherington-pic {
 	margin: 2% 0 0 0;
 }
@@ -282,18 +263,11 @@ nav ul li:hover {
 		margin-top: 5px;
 	}
 
-	/* .page {
-	  margin-bottom: 10%;
-	} */
-
 	.family1-pics, .family2-pics {
 		max-width: 350px;
 		margin: 0 auto;
 	}
 
-	/* .family1-pics {
-		padding-top: 30px;
-	} */
 
 }
 
@@ -396,13 +370,6 @@ nav ul li:hover {
     margin-top: 30px;
 }
 
-/* .family2-pics img {
-    margin-right: -25px;
-} */
-
-/* .bridgerton-family, .featherington-pic {
-	margin: 8% 0;
-} */
 
 #scroll-to-top {
 	padding: 3%;
@@ -414,7 +381,6 @@ nav ul li:hover {
 @media (min-width: 1000px) {
 	.content-1 {
     display: flex;
-    /* flex-flow: row wrap; */
     justify-content: center;
 }
 
@@ -446,9 +412,6 @@ nav ul li:hover {
 	}
 
 
-	/* .bridgerton-brothers {
-    margin-top: 20%;
-} */
 
 /*********** IMAGE HOVER EFFECT ****************/
 	.grow {
@@ -515,15 +478,6 @@ nav ul li:hover {
 	.intro p {
 		font-size: 1.3em
 	}
-
-	/* .bridgerton-float {
-		margin: 6% 0;
-	} */
-
-	/* .bridgerton-family {
-		float: left;
-		margin: 1%;
-	} */
 
 	.bridgerton-float p {
 		margin-left: 2%;
