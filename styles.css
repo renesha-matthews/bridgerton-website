@@ -219,7 +219,7 @@ footer {
 
 main h2 {
 	padding: 0;
-	max-width: 330px;
+	max-width: 342px;
   overflow: hidden;
   border-right: .1111em solid black;
   white-space: nowrap;
@@ -502,7 +502,7 @@ nav ul li:hover {
 /**** 1920PX MEDIA QUERY ****/
 @media (min-width: 1920px) {
 	.typewriter h2 {
-		max-width: 400px;
+		max-width: 420px;
 		font-size: 3em;
 }
 
