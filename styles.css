@@ -89,6 +89,7 @@ header, section {
 .intro p {
 	font-weight: bold;
 	line-height: 1.5;
+	padding: 10px;
 }
 
 /* .page {
@@ -245,6 +246,11 @@ main h2 {
 		  animation-iteration-count: infinite;
 }
 
+nav ul li:hover {
+	animation: round .3s;
+}
+
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -253,6 +259,16 @@ main h2 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: black; }
+}
+
+@keyframes round {
+	0% {
+		transform: rotate(180deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
 }
 
 /*************** START MEDIA QUERIES  **************/
@@ -307,6 +323,17 @@ main h2 {
 		height: 300px;
 		margin: auto;
 		margin-top: 5px;
+	}
+
+	nav ul {
+	    display: flex;
+			justify-content: center;
+	    flex-flow: row;
+	}
+
+	nav ul li a {
+		padding: 20px;
+		margin: 0 20px;
 	}
 }
 
