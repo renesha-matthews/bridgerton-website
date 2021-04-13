@@ -83,6 +83,10 @@ header, section {
 	font-weight: bold;
 }
 
+.heading {
+	display: none;
+}
+
 /*********** INTRO SECTION ****************/
 
 .intro p {
